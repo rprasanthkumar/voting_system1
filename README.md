@@ -21,13 +21,13 @@ If you need to modify Zookeeper configurations or change the exposed port, you c
 
 Running the App
 
-Install the required Python packages using the following command:
+##### Install the required Python packages using the following command:
 pip install -r requirements.txt
-Creating the required tables on Postgres and generating voter information on Kafka topic:
+##### Creating the required tables on Postgres and generating voter information on Kafka topic:
 python main.py
-Consuming the voter information from Kafka topic, generating voting data and producing data to Kafka topic:
+##### Consuming the voter information from Kafka topic, generating voting data and producing data to Kafka topic:
 python voting.py
-Consuming the voting data from Kafka topic, enriching the data from Postgres and producing data to specific topics on Kafka:
+##### Consuming the voting data from Kafka topic, enriching the data from Postgres and producing data to specific topics on Kafka:
 python spark-streaming.py
-Running the Streamlit app:
+##### Running the Streamlit app:
 streamlit run streamlit-app.py
