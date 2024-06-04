@@ -2,12 +2,13 @@
 
 This Docker Compose file allows you to easily spin up Zookkeeper, Kafka and Postgres application in Docker containers.
 
-Prerequisites
+##### Prerequisites
 
 Python 3.9 or above installed on your machine
 Docker Compose installed on your machine
 Docker installed on your machine
-Steps to Run
+
+##### Steps to Run
 
 Clone this repository.
 Navigate to the root containing the Docker Compose file.
@@ -15,7 +16,7 @@ Run the following command:
 docker-compose up -d
 This command will start Zookeeper, Kafka and Postgres containers in detached mode (-d flag). Kafka will be accessible at localhost:9092 and Postgres at localhost:5432.
 
-Additional Configuration
+##### Additional Configuration
 
 If you need to modify Zookeeper configurations or change the exposed port, you can update the docker-compose.yml file according to your requirements.
 
