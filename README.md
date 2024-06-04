@@ -1,4 +1,4 @@
-Setting up the System
+##### Setting up the System
 
 This Docker Compose file allows you to easily spin up Zookkeeper, Kafka and Postgres application in Docker containers.
 
